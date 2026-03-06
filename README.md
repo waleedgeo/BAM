@@ -1,9 +1,8 @@
 <div align="center">
   <a href="http://bam.waleedgeo.com">
-    <img src="img/bam_logo_cover.png" alt="BAM Logo Cover" width="80%">
+    <img src="img/bam_og_v2.png" alt="BAM Logo Cover" width="80%">
   </a>
 
-  <h1 align="center">Burn Area Mapper (BAM)</h1>
   <p align="center">
     <strong>An Automated, Self-Supervised Machine Learning Framework for Near-Real-Time Wildfire Burned Area Mapping using Multi-Source Earth Observation</strong>
     <br />
