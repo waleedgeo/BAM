@@ -11,15 +11,15 @@
     <a href="http://bam.waleedgeo.com"><strong>Launch GEE App »</strong></a>
     <br />
     <br />
-    <a href="#-overview">Overview</a>
+    <a href="#overview">Overview</a>
     ·
-    <a href="#-interactive-gee-app">BAM App</a>
+    <a href="#interactive-gee-app">BAM App</a>
     ·
-    <a href="#-key-features">Features</a>
+    <a href="#key-features">Features</a>
     ·
-    <a href="#-repository-structure">Code Access</a>
+    <a href="#repository-structure">Code Access</a>
     ·
-    <a href="#-citation">Citation</a>
+    <a href="#citation">Citation</a>
     ·
     <a href="#author--contact">Contact</a>
   </p>
@@ -35,21 +35,21 @@
 
 <br />
 
-## 📖 Overview
+## Overview
 
 **BAM (Burn Area Mapper)** represents a paradigm shift in Earth observation for disaster management, moving from historical post-fire assessments to highly automated, near-real-time wildfire burned area mapping. By leveraging multi-source Earth Observation (EO) data within the Google Earth Engine (GEE) environment, BAM provides a scalable, self-supervised machine learning framework that operates without the need for extensive manual data annotation.
 
 The framework integrates advanced atmospheric correction models (SREM) and state-of-the-art spectral indices with Gradient Tree Boosting algorithms. Through intelligent weak labeling driven by dynamic Otsu thresholding, BAM automates the generation of training data, achieving robust cross-validated classification accuracy across diverse biomes globally.
 
-> **📢 Project Status**
+> **Project Status**
 >
 > The manuscript describing this methodology is currently **under review** at the *Remote Sensing of Environment* journal. The full dataset processing pipeline and source code will be made publicly available immediately following manuscript acceptance.
 
-> 📧 For early access to the codebase for validation or research purposes, please [contact the author](#author--contact).
+> For early access to the codebase for validation or research purposes, please [contact the author](#author--contact).
 
 ---
 
-## 🌍 Interactive GEE App
+## Interactive GEE App
 
 Visualize and interact with the BAM framework directly through our Google Earth Engine web application. The platform provides global coverage for monitoring recent and historical wildfire events using Landsat 8/9 imagery.
 
@@ -63,21 +63,21 @@ Visualize and interact with the BAM framework directly through our Google Earth 
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 ### Methodology & Technical Excellence
-* 🤖 **Self-Supervised Machine Learning:** Automated integration of Gradient Tree Boosting models trained on robust weak labels, eliminating the manual annotation bottleneck.
-* 🛰️ **Multi-Source Earth Observation:** Harnesses the power of Landsat 8/9 data with advanced spectral indices designed specifically for vegetation burn severity.
-* 🔬 **Embedded Atmospheric Correction:** Features built-in SREM (Simplified Robust Elevation Model) surface reflectance estimation for consistent multi-temporal analyses globally.
-* 📊 **Automated Weak Labeling:** Employs dynamic Otsu-based thresholding for intelligent, biome-adaptive training label generation.
+* **Self-Supervised Machine Learning:** Automated integration of Gradient Tree Boosting models trained on robust weak labels, eliminating the manual annotation bottleneck.
+* **Multi-Source Earth Observation:** Harnesses the power of Landsat 8/9 data with advanced spectral indices designed specifically for vegetation burn severity.
+* **Embedded Atmospheric Correction:** Features built-in SREM (Simplified Robust Elevation Model) surface reflectance estimation for consistent multi-temporal analyses globally.
+* **Automated Weak Labeling:** Employs dynamic Otsu-based thresholding for intelligent, biome-adaptive training label generation.
 
 ### Scale & Accessibility
-* 🌍 **Global Operability:** Designed and validated to function seamlessly across distinct fire regimes and disparate ecosystems worldwide.
-* ⚡ **High Performance Deployment:** Built natively on Google Earth Engine for planetary-scale computation and rapid inference.
+* **Global Operability:** Designed and validated to function seamlessly across distinct fire regimes and disparate ecosystems worldwide.
+* **High-Performance Deployment:** Built natively on Google Earth Engine for planetary-scale computation and rapid inference.
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 This repository serves as the official code and documentation hub for the BAM framework.
 
@@ -104,18 +104,18 @@ BAM/
 
 ---
 
-## 🗺️ Roadmap & Development Status
+## Roadmap & Development Status
 
 | Feature | Status | Timeline |
 |---------|--------|----------|
-| **BAM Web App** | ✅ Live | Available Now |
-| **Manuscript Publication** | 📝 Under Review | Submitted to *Remote Sensing of Environment* |
-| **Source Code Release** | 🔒 Restricted | Opens upon acceptance |
-| **Dataset & Code Repository Publication** | 🔜 Pending | Release upon acceptance |
+| **BAM Web App** | Live | Available Now |
+| **Manuscript Publication** | Under Review | Submitted to *Remote Sensing of Environment* |
+| **Source Code Release** | Restricted | Opens upon acceptance |
+| **Dataset & Code Repository Publication** | Pending | Release upon acceptance |
 
 ---
 
-## 📖 Citation
+## Citation
 
 If you use the BAM framework or Web App in your research, please cite the foundational manuscript once published:
 
@@ -132,7 +132,7 @@ If you use the BAM framework or Web App in your research, please cite the founda
 
 ## Author & Contact
 
-**Mirza Waleed** (Main and First Author)  
+**Mirza Waleed** (First Author & Developer)  
 *Department of Geography, Hong Kong Baptist University*  
 *Hong Kong Special Administration Region of China*  
 
@@ -140,17 +140,22 @@ If you use the BAM framework or Web App in your research, please cite the founda
 * **Email:** [waleedgeo@outlook.com](mailto:waleedgeo@outlook.com)
 * **GitHub:** [@waleedgeo](https://github.com/waleedgeo)
 
-**Co-Author:** Muhammad Bilal ([muhammad.bilal@kfupm.edu.sa](mailto:muhammad.bilal@kfupm.edu.sa))
+**Muhammad Bilal** (Second & Corresponding Author)  
+*Architecture and City Design Department, College of Design and Built Environment, King Fahd University of Petroleum & Minerals, Dhahran, Saudi Arabia*
+*Center for Aviation & Space Exploration, King Fahd University of Petroleum & Minerals, Dhahran, Saudi Arabia*
+* **Email:** [muhammad.bilal@kfupm.edu.sa](mailto:muhammad.bilal@kfupm.edu.sa)
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
-This research incorporates large-scale geospatial processing supported by the **Google Earth Engine** platform, alongside freely accessible Multi-Source Earth Observation imagery (Landsat 8/9). We sincerely thank the reviewers and the open science community for contributing robust datasets and feedback.
+The authors express their sincere gratitude to the **United States Geological Survey (USGS)** and the **European Space Agency (ESA)** for providing the Landsat 8/9 and Sentinel-2 imagery. We are deeply thankful to the **Google Earth Engine** team for providing the high-performance cloud computing infrastructure essential for this planetary-scale analysis. 
+
+We also acknowledge the open-access contributions of the **FABDEM** and **WorldCover** projects, which provided critical baseline datasets. Finally, we thank the anonymous reviewers for their thoughtful feedback and insights, which significantly improved the design and structure of this research.
 
 ---
 
-## 📄 License
+## License
 
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
