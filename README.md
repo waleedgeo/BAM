@@ -140,7 +140,7 @@ If you use the BAM framework or Web App in your research, please cite the founda
 * **Email:** [waleedgeo@outlook.com](mailto:waleedgeo@outlook.com)
 * **GitHub:** [@waleedgeo](https://github.com/waleedgeo)
 
-**Co-Author:** Muhammad Bilal
+**Co-Author:** Muhammad Bilal ([muhammad.bilal@kfupm.edu.sa](mailto:muhammad.bilal@kfupm.edu.sa))
 
 ---
 
