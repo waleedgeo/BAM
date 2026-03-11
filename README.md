@@ -24,10 +24,10 @@
   </p>
 
   <p align="center">
-    <img src="https://img.shields.io/badge/Status-Under%20Review-orange?style=flat-square&logo=gitbook" alt="Status">
-    <img src="https://img.shields.io/badge/Platform-Google%20Earth%20Engine-green?style=flat-square&logo=google" alt="GEE">
+    <img src="https://img.shields.io/badge/Status-Under%20Submission-orange?style=for-the-badge&logo=gitbook" alt="Status">
+    <img src="https://img.shields.io/badge/Platform-Google%20Earth%20Engine-green?style=for-the-badge&logo=google" alt="GEE">
     <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-      <img src="https://img.shields.io/badge/License-CC%20BY--NC%20SA%204.0-lightgrey?style=flat-square&logo=creativecommons" alt="License">
+      <img src="https://img.shields.io/badge/License-CC%20BY--NC%20SA%204.0-lightgrey?style=for-the-badge&logo=creativecommons" alt="License">
     </a>
   </p>
 </div>
@@ -42,7 +42,7 @@ The framework integrates advanced atmospheric correction models (SREM) and state
 
 > **Project Status**
 >
-> The manuscript describing this methodology is currently **under review** at the *Remote Sensing of Environment* journal. The full dataset processing pipeline and source code will be made publicly available immediately following manuscript acceptance.
+> The manuscript describing this methodology is currently **under submission**. The full dataset processing pipeline and source code will be made publicly available following the peer-review process and manuscript acceptance.
 
 > For early access to the codebase for validation or research purposes, please [contact the author](#author--contact).
 
@@ -64,15 +64,15 @@ Visualize and interact with the BAM framework directly through our Google Earth 
 
 ## Key Features
 
-### Methodology & Technical Excellence
-* **Self-Supervised Machine Learning:** Automated integration of Gradient Tree Boosting models trained on robust weak labels, eliminating the manual annotation bottleneck.
-* **Multi-Source Earth Observation:** Harnesses the power of Landsat 8/9 data with advanced spectral indices designed specifically for vegetation burn severity.
-* **Embedded Atmospheric Correction:** Features built-in SREM (Simplified Robust Elevation Model) surface reflectance estimation for consistent multi-temporal analyses globally.
-* **Automated Weak Labeling:** Employs dynamic Otsu-based thresholding for intelligent, biome-adaptive training label generation.
+### 🛠️ Methodology & Technical Excellence
+* **🤖 Self-Supervised Machine Learning:** Automated integration of Gradient Tree Boosting models trained on robust weak labels, eliminating the manual annotation bottleneck.
+* **🛰️ Multi-Source Earth Observation:** Harnesses the power of Landsat 8/9 data with advanced spectral indices designed specifically for vegetation burn severity.
+* **☁️ Embedded Atmospheric Correction:** Features built-in SREM (Simplified Robust Elevation Model) surface reflectance estimation for consistent multi-temporal analyses globally.
+* **🏷️ Automated Weak Labeling:** Employs dynamic Otsu-based thresholding for intelligent, biome-adaptive training label generation.
 
-### Scale & Accessibility
-* **Global Operability:** Designed and validated to function seamlessly across distinct fire regimes and disparate ecosystems worldwide.
-* **High-Performance Deployment:** Built natively on Google Earth Engine for planetary-scale computation and rapid inference.
+### 🌎 Scale & Accessibility
+* **🌐 Global Operability:** Designed and validated to function seamlessly across distinct fire regimes and disparate ecosystems worldwide.
+* **⚡ High-Performance Deployment:** Built natively on Google Earth Engine for planetary-scale computation and rapid inference.
 
 ---
 
@@ -108,7 +108,7 @@ BAM/
 | Feature | Status | Timeline |
 |---------|--------|----------|
 | **BAM Web App** | Live | Available Now |
-| **Manuscript Publication** | Under Review | Submitted to *Remote Sensing of Environment* |
+| **Manuscript Publication** | Under Review | Submitted |
 | **Source Code Release** | Restricted | Opens upon acceptance |
 | **Dataset & Code Repository Publication** | Pending | Release upon acceptance |
 
@@ -122,7 +122,7 @@ If you use the BAM framework or Web App in your research, please cite the founda
 @article{waleed2026bam,
   title={BAM: An Automated, Self-Supervised Machine Learning Framework for Near-Real-Time Wildfire Burned Area Mapping using Multi-Source Earth Observation},
   author={Waleed, Mirza and Bilal, Muhammad},
-  journal={Under Review at Remote Sensing of Environment},
+  journal={Under Submission},
   year={2026}
 }
 ```
@@ -150,7 +150,7 @@ If you use the BAM framework or Web App in your research, please cite the founda
 
 The authors express their sincere gratitude to the **United States Geological Survey (USGS)** and the **European Space Agency (ESA)** for providing the Landsat 8/9 and Sentinel-2 imagery. We are deeply thankful to the **Google Earth Engine** team for providing the high-performance cloud computing infrastructure essential for this planetary-scale analysis. 
 
-We also acknowledge the open-access contributions of the **FABDEM** and **WorldCover** projects, which provided critical baseline datasets. Finally, we thank the anonymous reviewers for their thoughtful feedback and insights, which significantly improved the design and structure of this research.
+We also acknowledge the open-access contributions of the **FABDEM** and **WorldCover** projects, which provided critical baseline datasets.
 
 ---
 
